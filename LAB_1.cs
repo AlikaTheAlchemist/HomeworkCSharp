@@ -48,198 +48,194 @@ namespace Lab
 
 
 
-            //Console.WriteLine("Задание №5: Необходимо реализовать метод таким образом, чтобы он считал сумму цифр двух чисел из разряда единиц.Выполните с его помощью последовательноесложение пяти чисел и результат выведите на экран.Постарайтесь выполнитьзадачу, используя минимально возможное количество вспомогательныхпеременных.");
-            //Console.WriteLine("Введите числа:");
-            //x = Convert.ToInt32(Console.ReadLine()); z = Convert.ToInt32(Console.ReadLine());
-            //for (int i = 0; i < 3; i++)
-            //{
-            //    x = PR.lastNumSum(x, z);
-            //    Console.WriteLine($"Сумма равна: {x}");
-            //    Console.WriteLine("Введите ещё число для сложения:");
-            //    z = Convert.ToInt32(Console.ReadLine());
-            //}
-            //Console.WriteLine($"Ответ: {PR.lastNumSum(x, z)}");
+            Console.WriteLine("Задание №5: Необходимо реализовать метод таким образом, чтобы он считал сумму цифр двух чисел из разряда единиц.Выполните с его помощью последовательноесложение пяти чисел и результат выведите на экран.Постарайтесь выполнитьзадачу, используя минимально возможное количество вспомогательныхпеременных.");
+            Console.WriteLine("Введите числа:");
+            x = Convert.ToInt32(Console.ReadLine()); z = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < 3; i++)
+            {
+                x = PR.lastNumSum(x, z);
+                Console.WriteLine($"Сумма равна: {x}");
+                Console.WriteLine("Введите ещё число для сложения:");
+                z = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.WriteLine($"Ответ: {PR.lastNumSum(x, z)}");
 
 
 
-            //Console.WriteLine("Задание №6: Необходимо реализовать метод таким образом, чтобы он возвращал деление x на y, и при этом гарантировал, что не будет выкинута ошибка деления на 0. При делении на 0 следует вернуть из метода число 0.");
-            //Console.WriteLine("Введите числа:");
-            //x = Convert.ToInt32(Console.ReadLine()); z = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine($"Ответ: {PR.safeDiv(x, z)}");
+            Console.WriteLine("Задание №6: Необходимо реализовать метод таким образом, чтобы он возвращал деление x на y, и при этом гарантировал, что не будет выкинута ошибка деления на 0. При делении на 0 следует вернуть из метода число 0.");
+            Console.WriteLine("Введите числа:");
+            x = Convert.ToInt32(Console.ReadLine()); z = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Ответ: {PR.safeDiv(x, z)}");
 
 
 
-            //Console.WriteLine("Задание №7: Необходимо реализовать метод таким образом, чтобы он возвращал строку, которая включает два принятых методом числа и корректно выставленный знак операции сравнения (больше, меньше, или равно). ");
-            //Console.WriteLine("Введите числа:");
-            //x = Convert.ToInt32(Console.ReadLine()); z = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine($"Ответ: {PR.makeDecision(x, z)}");
+            Console.WriteLine("Задание №7: Необходимо реализовать метод таким образом, чтобы он возвращал строку, которая включает два принятых методом числа и корректно выставленный знак операции сравнения (больше, меньше, или равно). ");
+            Console.WriteLine("Введите числа:");
+            x = Convert.ToInt32(Console.ReadLine()); z = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Ответ: {PR.makeDecision(x, z)}");
 
 
 
-            //Console.WriteLine("Задание №8: Необходимо реализовать метод таким образом, чтобы он возвращал true, если два любых числа (из трех принятых) можно сложить так, чтобы получить третье. ");
-            //Console.WriteLine("Введите числа:");
-            //x = Convert.ToInt32(Console.ReadLine()); z = Convert.ToInt32(Console.ReadLine()); y = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine($"Ответ: {PR.sum3(x, z, y)}");
+            Console.WriteLine("Задание №8: Необходимо реализовать метод таким образом, чтобы он возвращал true, если два любых числа (из трех принятых) можно сложить так, чтобы получить третье. ");
+            Console.WriteLine("Введите числа:");
+            x = Convert.ToInt32(Console.ReadLine()); z = Convert.ToInt32(Console.ReadLine()); y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Ответ: {PR.sum3(x, z, y)}");
 
 
 
-            //Console.WriteLine("Задание №9: Необходимо реализовать метод таким образом, чтобы он возвращал строку, в которой сначала будет число х, а затем одно из слов: год, года, лет");
-            //Console.WriteLine("Введите число:");
-            //x = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine($"Ответ: {PR.age(x)}");
+            Console.WriteLine("Задание №9: Необходимо реализовать метод таким образом, чтобы он возвращал строку, в которой сначала будет число х, а затем одно из слов: год, года, лет");
+            Console.WriteLine("Введите число:");
+            x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Ответ: {PR.age(x)}");
 
 
 
-            //Console.WriteLine("Задание №10: В качестве параметра метод принимает строку, в которой записано название дня недели. Необходимо реализовать метод таким образом, чтобы он выводилна экран название переданного в него дня и всех последующих до конца недели дней.Если в качестве строки передан не день, то выводится текст “это не день недели”.");
-            //Console.WriteLine("Введите день недели с большой буквы:");
-            //word = Console.ReadLine();
-            //PR.printDays(word);
+            Console.WriteLine("Задание №10: В качестве параметра метод принимает строку, в которой записано название дня недели. Необходимо реализовать метод таким образом, чтобы он выводилна экран название переданного в него дня и всех последующих до конца недели дней.Если в качестве строки передан не день, то выводится текст “это не день недели”.");
+            Console.WriteLine("Введите день недели с большой буквы:");
+            word = Console.ReadLine();
+            PR.printDays(word);
 
 
 
-            //Console.WriteLine("Задание №11: Необходимо реализовать метод таким образом, чтобы он возвращал строку, в которой будут записаны все числа от x до 0(включительно)");
-            //Console.WriteLine("Введите число:");
-            //x = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine($"Ответ: {PR.reverseListNums(x)}");
+            Console.WriteLine("Задание №11: Необходимо реализовать метод таким образом, чтобы он возвращал строку, в которой будут записаны все числа от x до 0(включительно)");
+            Console.WriteLine("Введите число:");
+            x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Ответ: {PR.reverseListNums(x)}");
 
 
 
-            //Console.WriteLine("Задание №12: Необходимо реализовать метод таким образом, чтобы он возвращал результат возведения x в степень y.");
-            //Console.WriteLine("Введите числа:");
-            //x = Convert.ToInt32(Console.ReadLine()); z = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine($"Ответ: {PR.pow(x, z)}");
+            Console.WriteLine("Задание №12: Необходимо реализовать метод таким образом, чтобы он возвращал результат возведения x в степень y.");
+            Console.WriteLine("Введите числа:");
+            x = Convert.ToInt32(Console.ReadLine()); z = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Ответ: {PR.pow(x, z)}");
 
 
 
-            //Console.WriteLine("Задание №13: Необходимо реализовать метод таким образом, чтобы он возвращал true, если все знаки числа одинаковы, и false в ином случае.  ");
-            //Console.WriteLine("Введите число:");
-            //x = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine($"Ответ: {PR.equalNum(x)}");
+            Console.WriteLine("Задание №13: Необходимо реализовать метод таким образом, чтобы он возвращал true, если все знаки числа одинаковы, и false в ином случае.  ");
+            Console.WriteLine("Введите число:");
+            x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Ответ: {PR.equalNum(x)}");
 
 
 
-            //Console.WriteLine("Задание №14: Необходимо реализовать метод таким образом, чтобы он выводил на экран треугольник из символов ‘*’ у которого х символов в высоту, а количество символов в ряду совпадает с номером строки.  ");
-            //Console.WriteLine("Введите число:");
-            //x = Convert.ToInt32(Console.ReadLine());
-            //PR.leftTriangle(x);
+            Console.WriteLine("Задание №14: Необходимо реализовать метод таким образом, чтобы он выводил на экран треугольник из символов ‘*’ у которого х символов в высоту, а количество символов в ряду совпадает с номером строки.  ");
+            Console.WriteLine("Введите число:");
+            x = Convert.ToInt32(Console.ReadLine());
+            PR.leftTriangle(x);
 
 
 
-            //Console.WriteLine("Задание №15: Необходимо реализовать метод таким образом, чтобы он генерировал случайное число от 0 до 9, далее считывал с консоли введенное пользователем число и выводил, угадал ли пользователь то, что было загадано, или нет. Метод запускается до тех пор, пока пользователь не угадает число. После этого выведите на экран количество попыток, которое потребовалось пользователю, чтобы угадать число.  ");
-            //PR.guessGame();
+            Console.WriteLine("Задание №15: Необходимо реализовать метод таким образом, чтобы он генерировал случайное число от 0 до 9, далее считывал с консоли введенное пользователем число и выводил, угадал ли пользователь то, что было загадано, или нет. Метод запускается до тех пор, пока пользователь не угадает число. После этого выведите на экран количество попыток, которое потребовалось пользователю, чтобы угадать число.  ");
+            PR.guessGame();
 
 
 
-            //Console.WriteLine("Задание №16: Необходимо реализовать метод таким образом, чтобы он возвращал индекс последнего вхождения числа x в массив arr. Если число не входит в массив – возвращается -1 ");
-            //Console.WriteLine("Введите число элементов в массиве:");
-            //z = Convert.ToInt32(Console.ReadLine());
-            //int[] array = new int[z];
-            //for (int i = 0; i < array.Length; i++)
-            //    array[i] = rnd.Next(11);
-            //for (int i = 0; i < array.Length; i++)
-            //    Console.WriteLine($"a = {array[i]}");
-            //Console.WriteLine("Введите число для поиска последнего вхождения:");
-            //x = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine($"Ответ: {PR.findLast(array, x)}");
-            //array = null;
+            Console.WriteLine("Задание №16: Необходимо реализовать метод таким образом, чтобы он возвращал индекс последнего вхождения числа x в массив arr. Если число не входит в массив – возвращается -1 ");
+            Console.WriteLine("Введите число элементов в массиве:");
+            z = Convert.ToInt32(Console.ReadLine());
+            int[] array = new int[z];
+            for (int i = 0; i < array.Length; i++)
+                array[i] = rnd.Next(11);
+            for (int i = 0; i < array.Length; i++)
+                Console.WriteLine($"a = {array[i]}");
+            Console.WriteLine("Введите число для поиска последнего вхождения:");
+            x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Ответ: {PR.findLast(array, x)}");
+            array = null;
 
 
 
-            //Console.WriteLine("Задание №17: Необходимо реализовать метод таким образом, чтобы он возвращал новый массив, который будет содержать все элементы массива arr, однако в позицию pos будет вставлено значение x  ");
-            //Console.WriteLine("Введите число элементов в массиве:");
-            //z = Convert.ToInt32(Console.ReadLine());
-            //array = new int[z];
-            //for (int i = 0; i < array.Length; i++)
-            //    array[i] = rnd.Next(11);
-            //for (int i = 0; i < array.Length; i++)
-            //    Console.WriteLine($"a = {array[i]}");
-            //Console.WriteLine("Введите число x и его позицию y:");
-            //x = Convert.ToInt32(Console.ReadLine()); y = Convert.ToInt32(Console.ReadLine());
-            //while (y >= z || y < 0)
-            //{
-            //    Console.WriteLine("Номер позиции должен находится в рамках массива, введите y:");
-            //    y = Convert.ToInt32(Console.ReadLine());
-            //}
-            //int[] array2 = PR.add(array, x, y);
-            //for (int i = 0; i < array2.Length; i++)
-            //    Console.WriteLine($"a = {array2[i]}");
-            //array = null; array2 = null;
+            Console.WriteLine("Задание №17: Необходимо реализовать метод таким образом, чтобы он возвращал новый массив, который будет содержать все элементы массива arr, однако в позицию pos будет вставлено значение x  ");
+            Console.WriteLine("Введите число элементов в массиве:");
+            z = Convert.ToInt32(Console.ReadLine());
+            array = new int[z];
+            for (int i = 0; i < array.Length; i++)
+                array[i] = rnd.Next(11);
+            for (int i = 0; i < array.Length; i++)
+                Console.WriteLine($"a = {array[i]}");
+            Console.WriteLine("Введите число x и его позицию y:");
+            x = Convert.ToInt32(Console.ReadLine()); y = Convert.ToInt32(Console.ReadLine());
+            while (y >= z || y < 0)
+            {
+                Console.WriteLine("Номер позиции должен находится в рамках массива, введите y:");
+                y = Convert.ToInt32(Console.ReadLine());
+            }
+            int[] array2 = PR.add(array, x, y);
+            for (int i = 0; i < array2.Length; i++)
+                Console.WriteLine($"a = {array2[i]}");
+            array = null; array2 = null;
 
 
 
-            //Console.WriteLine("Задание №18: Необходимо реализовать метод таким образом, чтобы он изменял массив arr. После проведенных изменений массив должен быть записан задом-наперед.  ");
-            //Console.WriteLine("Введите число элементов в массиве:");
-            //z = Convert.ToInt32(Console.ReadLine());
-            //array = new int[z];
-            //for (int i = 0; i < array.Length; i++)
-            //    array[i] = rnd.Next(11);
-            //for (int i = 0; i < array.Length; i++)
-            //    Console.WriteLine($"a = {array[i]}");
-            //PR.reverse(array);
-            //Console.WriteLine("Массив после преобразований:");
-            //for (int i = 0; i < array.Length; i++)
-            //    Console.WriteLine($"a = {array[i]}");
-            //array = null;
+            Console.WriteLine("Задание №18: Необходимо реализовать метод таким образом, чтобы он изменял массив arr. После проведенных изменений массив должен быть записан задом-наперед.  ");
+            Console.WriteLine("Введите число элементов в массиве:");
+            z = Convert.ToInt32(Console.ReadLine());
+            array = new int[z];
+            for (int i = 0; i < array.Length; i++)
+                array[i] = rnd.Next(11);
+            for (int i = 0; i < array.Length; i++)
+                Console.WriteLine($"a = {array[i]}");
+            PR.reverse(array);
+            Console.WriteLine("Массив после преобразований:");
+            for (int i = 0; i < array.Length; i++)
+                Console.WriteLine($"a = {array[i]}");
+            array = null;
 
 
 
-            //Console.WriteLine("Задание №19: Необходимо реализовать метод таким образом, чтобы он возвращал новый массив, в котором сначала идут элементы первого массива (arr1), а затем второго (arr2).   ");
-            //Console.WriteLine("Введите число элементов в массивах:");
-            //z = Convert.ToInt32(Console.ReadLine());
-            //y = Convert.ToInt32(Console.ReadLine());
-            //array = new int[z];
-            //array2 = new int[y];
+            Console.WriteLine("Задание №19: Необходимо реализовать метод таким образом, чтобы он возвращал новый массив, в котором сначала идут элементы первого массива (arr1), а затем второго (arr2).   ");
+            Console.WriteLine("Введите число элементов в массивах:");
+            z = Convert.ToInt32(Console.ReadLine());
+            y = Convert.ToInt32(Console.ReadLine());
+            array = new int[z];
+            array2 = new int[y];
 
-            //for (int i = 0; i < array.Length; i++)
-            //    array[i] = rnd.Next(11);
-            //for (int i = 0; i < array2.Length; i++)
-            //    array2[i] = rnd.Next(11);
-            //Console.WriteLine("Массив 1:");
-            //for (int i = 0; i < array.Length; i++)
-            //    Console.WriteLine($"a = {array[i]}");
-            //Console.WriteLine("Массив 2:");
-            //for (int i = 0; i < array2.Length; i++)
-            //    Console.WriteLine($"a2 = {array2[i]}");
+            for (int i = 0; i < array.Length; i++)
+                array[i] = rnd.Next(11);
+            for (int i = 0; i < array2.Length; i++)
+                array2[i] = rnd.Next(11);
+            Console.WriteLine("Массив 1:");
+            for (int i = 0; i < array.Length; i++)
+                Console.WriteLine($"a = {array[i]}");
+            Console.WriteLine("Массив 2:");
+            for (int i = 0; i < array2.Length; i++)
+                Console.WriteLine($"a2 = {array2[i]}");
 
-            //int[] array3 = PR.concat(array, array2);
-            //Console.WriteLine("Полученный массив:");
-            //for (int i = 0; i < array.Length + array2.Length; i++)
-            //    Console.WriteLine($"a3 = {array3[i]}");
-            //array = null; array2 = null; array3 = null;
-
-
-
-
-            //Console.WriteLine("Задание №20: Необходимо реализовать метод таким образом, чтобы он возвращал новый массив, в котором записаны все элементы массива arr кроме отрицательных.   ");
-            //Console.WriteLine("Введите число элементов в массиве:");
-            //z = Convert.ToInt32(Console.ReadLine());
-            //array = new int[z];
-            //for (int i = 0; i < array.Length; i++)
-            //    array[i] = rnd.Next(-6, 11);
-            //for (int i = 0; i < array.Length; i++)
-            //    Console.WriteLine($"a = {array[i]}");
-            //array2 = PR.deleteNegative(array);
-            //Console.WriteLine("Полученный массив:");
-            //for (int i = 0; i < array2.Length; i++)
-            //    Console.WriteLine($"a = {array2[i]}");
-            //array = null; array2 = null;
+            int[] array3 = PR.concat(array, array2);
+            Console.WriteLine("Полученный массив:");
+            for (int i = 0; i < array.Length + array2.Length; i++)
+                Console.WriteLine($"a3 = {array3[i]}");
+            array = null; array2 = null; array3 = null;
 
 
 
 
+            Console.WriteLine("Задание №20: Необходимо реализовать метод таким образом, чтобы он возвращал новый массив, в котором записаны все элементы массива arr кроме отрицательных.   ");
+            Console.WriteLine("Введите число элементов в массиве:");
+            z = Convert.ToInt32(Console.ReadLine());
+            array = new int[z];
+            for (int i = 0; i < array.Length; i++)
+                array[i] = rnd.Next(-6, 11);
+            for (int i = 0; i < array.Length; i++)
+                Console.WriteLine($"a = {array[i]}");
+            array2 = PR.deleteNegative(array);
+            Console.WriteLine("Полученный массив:");
+            for (int i = 0; i < array2.Length; i++)
+                Console.WriteLine($"a = {array2[i]}");
+            array = null; array2 = null;
 
 
 
-            //Console.WriteLine("Задание №3: Необходимо реализовать метод таким образом, чтобы он принимал символ x и возвращал true, если это большая буква в диапазоне от ‘A’ до ‘Z’.");
-            //Console.WriteLine("Введите символ:"); x = Console.Read();
-            //a = Convert.ToChar(x);
-            //while (!Char.IsLetter(a))
-            //{
-            //    Console.WriteLine("Символ не является буквой, попробуйте ещё раз: ");
-            //    x = Console.Read();
-            //    a = Convert.ToChar(x);
-            //}
-            //Console.WriteLine($"Ответ: {PR.isUpperCase(a)}");
+            Console.WriteLine("Задание №3: Необходимо реализовать метод таким образом, чтобы он принимал символ x и возвращал true, если это большая буква в диапазоне от ‘A’ до ‘Z’.");
+            Console.WriteLine("Введите символ:"); x = Console.Read();
+            a = Convert.ToChar(x);
+            while (!Char.IsLetter(a))
+            {
+                Console.WriteLine("Символ не является буквой, попробуйте ещё раз: ");
+                x = Console.Read();
+                a = Convert.ToChar(x);
+            }
+            Console.WriteLine($"Ответ: {PR.isUpperCase(a)}");
 
 
         }
@@ -443,4 +439,3 @@ namespace Lab
 
     }
 }
-
