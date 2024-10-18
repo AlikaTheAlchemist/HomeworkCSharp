@@ -24,16 +24,22 @@ namespace Lab
             string text, textinput, numinput = "";
             int score = 0, increse = 0;
 
+
+
+            // ТЕСТИРОВАНИЕ БАЗОВОГО КЛАССА
+
+            Console.WriteLine("Тестирование базового класса:");
+            Console.WriteLine("Создание объекта без параметров:");
+            CastomString nulString = new CastomString();
+            Console.WriteLine(nulString.ToString());
+
+
+            // создание объекта с параметам
+            Console.WriteLine("Создание объекта с вводимыми параметрами:");
             // ввод и проверка строки
             Console.WriteLine("Введите Имя");
             text = Console.ReadLine();
             textinput = PR.StringCheck(text);
-
-
-
-            Console.WriteLine("\nТестирование базового класса:");
-            // тестирование базового класса
-            Console.WriteLine("Создание объекта:");
             CastomString baseString = new CastomString(textinput);
             Console.WriteLine(baseString.ToString());
 
@@ -49,6 +55,7 @@ namespace Lab
 
 
 
+            // ТЕСТИРОВАНИЕ ДОЧЕРНЕГО КЛАССА 
 
             Console.WriteLine("\nТестирование дочернего класса:");
             Console.WriteLine("Введите имя: ");
