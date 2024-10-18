@@ -119,6 +119,7 @@ namespace LAB_2_NUM_2
         }
 
 
+        // СЛОЖЕНИЕ И ВЫЧИТАНИЕ
         public static Money operator +(Money e1, Money e2)
         {
             uint rubls = e1.rubles + e2.rubles;
@@ -137,13 +138,17 @@ namespace LAB_2_NUM_2
 
             if (kops < 0)
             {
-                kops = kops + 100;
-                rubls--;
+                if (rubls >= 0)
+                {
+                    kops = kops + 100;
+                    rubls--;
+                }
+                else kops = kops * (-1);
             }
 
-            if(rubls < 0)
+            if (rubls < 0)
             {
-                throw new InvalidOperationException("Результат операции не может быть отрицательным");
+                rubls = rubls * (-1);
             }
 
             byte kop = (byte)(kops % 100);
