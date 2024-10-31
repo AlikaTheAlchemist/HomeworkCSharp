@@ -12,12 +12,12 @@ namespace LAB_3_NUM_48
         static void Main()
         {
             Console.OutputEncoding = Encoding.UTF8;
-            string name = "C:\\Users\\alika\\source\\repos\\LAB_3_NUM_48\\LAB_3_NUM_48\\";
-            string name1 = "C:\\Users\\alika\\source\\repos\\LAB_3_NUM_48\\LAB_3_NUM_48\\file1.bin";
-            string name2 = "C:\\Users\\alika\\source\\repos\\LAB_3_NUM_48\\LAB_3_NUM_48\\file2.bin";
-            string name3 = "C:\\Users\\alika\\source\\repos\\LAB_3_NUM_48\\LAB_3_NUM_48\\file3.txt";
-            string name4 = "C:\\Users\\alika\\source\\repos\\LAB_3_NUM_48\\LAB_3_NUM_48\\file4.txt";
-            string name5 = "C:\\Users\\alika\\source\\repos\\LAB_3_NUM_48\\LAB_3_NUM_48\\file5.txt";
+            string name = "";
+            string name1 = "file1.bin";
+            string name2 = "file2.bin";
+            string name3 = "file3.txt";
+            string name4 = "file4.txt";
+            string name5 = "file5.txt";
 
 
             // Создание и заполнение файла случайными числами
