@@ -44,7 +44,7 @@ namespace LAB_4
             // ЗАДАНИЕ 3
 
             // Ввод полного списка игр из файла
-            string Games = "C:\\Users\\alika\\source\\repos\\LAB_4\\LAB_4\\Games.txt";
+            string Games = "Games.txt";
             HashSet<string> allGames;
             try
             {
@@ -83,9 +83,9 @@ namespace LAB_4
 
             // ЗАДАНИЕ 4
 
-            // string filePath = "C:\\Users\\alika\\source\\repos\\LAB_4\\LAB_4\\rutext.txt"; // детский диктант на 10 предложений
-            string filePath = "C:\\Users\\alika\\source\\repos\\LAB_4\\LAB_4\\rutext2.txt"; // детский диктант поменьше без ф, ш
-            //string filePath = "C:\\Users\\alika\\source\\repos\\LAB_4\\LAB_4\\rutext3.txt"; // слова без глухих согласных вообще
+            // string filePath = "rutext.txt"; // детский диктант на 10 предложений
+            string filePath = "rutext2.txt"; // детский диктант поменьше без ф, ш
+            //string filePath = "rutext3.txt"; // слова без глухих согласных вообще
 
             // Вызываем метод для получения отсутствующих глухих согласных
             var missingConsonants = ListsAndMore.Letters(filePath);
@@ -101,7 +101,7 @@ namespace LAB_4
             // ЗАДАНИЕ 5
 
             List<Participant> participants = Olimpiada.ReadParticipants();
-            string xmlFilePath = "C:\\Users\\alika\\source\\repos\\LAB_4\\LAB_4\\participants.xml";
+            string xmlFilePath = "participants.xml";
 
             // Сериализация данных и сохранение в XML
             Olimpiada.SaveParticipantsToXml(participants, xmlFilePath);
