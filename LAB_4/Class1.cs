@@ -28,6 +28,7 @@ namespace LAB_4
         {
             for (int i = 0; i <= L.Count - L1.Count; i++)
             {
+                // Получаем подсписок длиной равной длине L1, начиная с индекса i и сравниваем подсписок с L1
                 if (L.Skip(i).Take(L1.Count).SequenceEqual(L1))
                 {
                     return i;
@@ -44,7 +45,7 @@ namespace LAB_4
 
         // ЗАДАНИЕ 2
 
-        // Метод сортировки двусвязного списка строк
+        // Метод сортировки двусвязного списка строк (вставки)
         public static void SortLinkedList(LinkedList<string> list)
         {
             if (list == null || list.Count < 2)

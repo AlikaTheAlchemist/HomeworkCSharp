@@ -7,8 +7,8 @@ using System.Xml.Serialization;
 
 namespace LAB_4
 {
-    // Класс для представления участника олимпиады
-    [Serializable] // Атрибут для сериализации класса в XML
+    // Класс для участников олимпиады
+    [Serializable] // Сериализация в XML
     public class Participant
     {
         public string LastName { get; set; } // Фамилия
