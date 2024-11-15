@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// ЗАДАНИЕ 3
+
 namespace LAB_4
 {
     internal class GameAnalysis
