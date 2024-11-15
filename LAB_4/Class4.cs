@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
+// ЗАДАНИЕ 5
+
 namespace LAB_4
 {
     // Класс для участников олимпиады
