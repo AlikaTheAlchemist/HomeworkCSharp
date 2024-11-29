@@ -35,7 +35,7 @@ namespace LAB_5_test
             foreach (var sheet in Sheets)
             {
                 sb.AppendLine($"Лист: {sheet.Name}");
-                sb.AppendLine(ShowSheetAsString(sheet)); // Получаем строковое представление листа
+                sb.AppendLine(ShowSheet(sheet)); // Получаем строковое представление листа
             }
 
             return sb.ToString();
@@ -44,7 +44,7 @@ namespace LAB_5_test
 
 
         // Метод для вывода данных листа
-        public string ShowSheetAsString(Worksheet sheet)
+        public string ShowSheet(Worksheet sheet)
         {
             StringBuilder sb = new StringBuilder();
             Cells cells = sheet.Cells;

@@ -139,7 +139,7 @@ namespace LAB_5_test
                         Console.WriteLine("\nВывод листа по номеру.");
                         Console.WriteLine("\nВведите номер листа:");
                         int num = PR.intCheck(database.Sheets.Count);
-                        Console.WriteLine(database.ShowSheetAsString(database.GetSheet(num)));
+                        Console.WriteLine(database.ShowSheet(database.GetSheet(num)));
 
                         try
                         {
